@@ -1,0 +1,6 @@
+curl -X POST -H "Authorization: 
+key=AAAANt5bmzY:APA91bETs-_Eq7-BjHYWWwX285p9ZjWDVdD-egnxh5H_xUJCiuemIlVZMr_0dHlr3uBcj74zGardndBLC7n3RAwSmYplZm3BUvvWJtA6YkNz-Uy0ur7j3CzojOO6aS3n2jR_sDWpmuiT" -H 
+"Content-Type: application/json" -d '
+{ "notification": { "title": "New Article", "body": "Firebase Cloud Messaging for Web using JavaScript", "icon": "alarm.png" }, 
+"to": "eNVnbOB0ayh8DELpjvXigf:APA91bHqDSV6XOgnCDaOY0tCZ5soSrefB2_6ttZb1x2eaBnIfy2ys84Eav4TAY4923VxZITV9U-2oai3MWpzeZZjRINGmdCtjf3cwJpHla0ov-vQ2pY_vNrwKNjZENpBIaQKOUKoOviz"
+ }' "https://fcm.googleapis.com/fcm/send"      
