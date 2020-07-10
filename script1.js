@@ -183,18 +183,18 @@
 
   resetUI();
 
-  window.addEventListener('load', e => {
-    // new PWAConfApp();
-     registerSW(); 
-   });
+//   window.addEventListener('load', e => {
+//     // new PWAConfApp();
+//      registerSW(); 
+//    });
    
  
- async function registerSW() { 
-    // if ('serviceWorker' in navigator) { 
-       try {
-         await navigator.serviceWorker.register('https://rotten-watermelon.github.io/Firebase-message/firebase-messaging-sw.js'); 
-       } catch (e) {
-         alert('ServiceWorker registration failed.'); 
-       }
+//  async function registerSW() { 
+//     // if ('serviceWorker' in navigator) { 
+//        try {
+//          await navigator.serviceWorker.register('./https://rotten-watermelon.github.io/Firebase-message/firebase-messaging-sw.js'); 
+//        } catch (e) {
+//          alert('ServiceWorker registration failed.'); 
+//        }
     
-   }
+//    }
