@@ -41,10 +41,9 @@ self.addEventListener('fetch', async event => {
 
 const staticSave = "TosHopBay";
 const assets = [
-"/",
-"/index.html",
-"/main.css",
-"/script1.js",
+"index.html",
+"main.css",
+"script1.js",
 "images/icons/icon-72x72.png",
 "images/icons/icon-96x96.png",
 "images/icons/icon-128x128.png",
@@ -52,7 +51,8 @@ const assets = [
 "images/icons/icon-152x152.png",
 "images/icons/icon-192x192.png",
 "images/icons/icon-384x384.png",
-"images/icons/icon-512x512.png"
+"images/icons/icon-512x512.png",
+"firebase-messaging.js"
 ]
 
 self.addEventListener('install', async event => {
