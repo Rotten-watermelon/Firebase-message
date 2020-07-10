@@ -1,5 +1,52 @@
 {
-  "//_comment1": "Some browsers will use this to enable push notifications.",
-  "//_comment2": "It is the same for all projects, this is not your project's sender ID",
-  "gcm_sender_id": "103953800507"
+  "name": "TosHopBay",
+  "short_name": "Hop-bay",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "images/icons/icon-72x72.png",
+      "sizes": "72x61",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-96x96.png",
+      "sizes": "96x82",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x109",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-152x152.png",
+      "sizes": "152x130",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x164",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-384x384.png",
+      "sizes": "384x329",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x439",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
 }

@@ -1,11 +1,5 @@
-// Import and configure the Firebase SDK
-// These scripts are made available when the app is served or deployed on Firebase Hosting
-// If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
-//importScripts('/__/firebase/7.15.0/firebase-app.js');
-//importScripts('/__/firebase/7.15.0/firebase-messaging.js');
-//importScripts('/__/firebase/init.js');
 
-//const messaging = firebase.messaging();
+
 
 
 importScripts('https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js');
@@ -34,4 +28,33 @@ messaging.setBackgroundMessageHandler(function(payload) {
 
   return self.registration.showNotification(notificationTitle,
     notificationOptions);
+});
+
+self.addEventListener('install', async event => {
+  console.log('install event')
+});
+
+self.addEventListener('fetch', async event => {
+  console.log('fetch event')
+});
+
+const staticSave = "dev-coffee-site-v1"
+const assets = [
+"/",
+"/index.html",
+"/main.css",
+"/script1.js",
+"images/icons/icon-72x72.png",
+"images/icons/icon-96x96.png",
+"images/icons/icon-128x128.png",
+"images/icons/icon-144x123.png",
+"images/icons/icon-152x152.png",
+"images/icons/icon-192x192.png",
+"images/icons/icon-384x384.png",
+"images/icons/icon-512x512.png"
+]
+
+self.addEventListener('install', async event => {
+  const cache = await caches.open(staticSave); 
+  await cache.addAll(assets); 
 });
