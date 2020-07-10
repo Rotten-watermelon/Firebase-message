@@ -38,7 +38,8 @@ self.addEventListener('fetch', async event => {
   console.log('fetch event')
 });
 
-const staticSave = "dev-coffee-site-v1"
+
+const staticSave = "TosHopBay";
 const assets = [
 "/",
 "/index.html",
@@ -47,7 +48,7 @@ const assets = [
 "images/icons/icon-72x72.png",
 "images/icons/icon-96x96.png",
 "images/icons/icon-128x128.png",
-"images/icons/icon-144x123.png",
+"images/icons/144.png",
 "images/icons/icon-152x152.png",
 "images/icons/icon-192x192.png",
 "images/icons/icon-384x384.png",
