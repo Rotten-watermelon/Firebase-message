@@ -4,20 +4,19 @@
     messagingSenderId: "your_messaging_sender_id"
   };
   var config = {
-    apiKey: "AIzaSyC9QPvOHTJQQ2Dg4lqOH6tpm2dVGFwS8U0",
-    authDomain: "push-notifier-9971c.firebaseapp.com",
-    databaseURL: "https://push-notifier-9971c.firebaseio.com",
-    projectId: "push-notifier-9971c",
-    storageBucket: "push-notifier-9971c.appspot.com",
-    messagingSenderId: "235658779446",
-    appId: "1:235658779446:web:95addf4f38459273f4f197",
-    measurementId: "G-SDTDX2MBZ5"
+    apiKey: "AIzaSyBH7HOnP4CKSyBLtScSiDvZ3QYt8bw9Ns8",
+    authDomain: "push-notifier-73b71.firebaseapp.com",
+    databaseURL: "https://push-notifier-73b71.firebaseio.com",
+    projectId: "push-notifier-73b71",
+    storageBucket: "push-notifier-73b71.appspot.com",
+    messagingSenderId: "56280728680",
+    appId: "1:56280728680:web:dab72a8a65f1887ca4e7dd"
   }
   
   firebase.initializeApp(config);
 
   const messaging = firebase.messaging();
-   messaging.usePublicVapidKey('BHK_5872dYfIT5EeMySG-zcdYVSmIhPhA1OrxsHcyDKlXZYHpUWk0B7cbGVTewouvo69t4E4wgMtkt-pYtHIMT0');
+   messaging.usePublicVapidKey('BL6vrGJnvstMsRtnyfppUwt-eTDMO0kyigoSOHILSEKIriNVy-uQ-DmHDhbkIZH5refNQ7L-CmxAClM0p0HybP4');
   const tokenDivId = 'token_div';
   const permissionDivId = 'permission_div';
 
